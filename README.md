@@ -21,14 +21,6 @@ In order to be able to run and test its functionality, first of all, you need to
 Then clone this project to your IDE:
 `git clone https://github.com/marta-liushniak/online-perfume-store-project`.
 
-Create a schema and required tables in MySQL (feel free to use SQL script: **init_db.sql** file in resources folder).
+Create a schema and required tables in MySQL (feel free to use SQL script: **init_db.sql** file in resources folder) and set up a connection to your DB in ConnectionUtil class.
 
-Set up a connection to your DB in ConnectionUtil class:
-![](https://scontent.fifo4-1.fna.fbcdn.net/v/t1.15752-9/323578816_1213046629306362_2215155386858367049_n.png?_nc_cat=103&ccb=1-7&_nc_sid=ae9488&_nc_ohc=Br1RdXfD-pAAX_YzaUV&_nc_ht=scontent.fifo4-1.fna&oh=03_AdTHX6QAvQc8v_LiBw9f0qenNlMNLJwzQ_vfLXn8i_aL1w&oe=63EE17BA)
-
-IMPORTANT: while configuring Tomcat, please, go to the Deployment tab, select **war exploded artifact** and change the application context to */* as follows:
-![](https://scontent.fifo4-1.fna.fbcdn.net/v/t1.15752-9/323008351_554805376572493_2863545099693500338_n.png?_nc_cat=105&ccb=1-7&_nc_sid=ae9488&_nc_ohc=SOpSAKee-sMAX_yAJQZ&_nc_ht=scontent.fifo4-1.fna&oh=03_AdTtiv-SrCudLgq2X2jqH57ZF4wMFZvCGgeP4Gca4D20Qg&oe=63EE11E2)
-
-DB diagram:
-
-![](https://scontent.fifo4-1.fna.fbcdn.net/v/t1.15752-9/324541562_1562498364256003_1109880123247903629_n.png?_nc_cat=102&ccb=1-7&_nc_sid=ae9488&_nc_ohc=LDdpY4--iz0AX-PBL7p&_nc_ht=scontent.fifo4-1.fna&oh=03_AdS_H0uM7zpUkDUmlX21wmv8kULAzvF6c14VontuHGp0CQ&oe=63EE2D65)
+IMPORTANT: while configuring Tomcat, please, go to the Deployment tab, select **war exploded artifact** and change the application context to */*.
