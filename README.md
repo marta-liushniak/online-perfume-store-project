@@ -21,6 +21,6 @@ In order to be able to run and test its functionality, first of all, you need to
 Then clone this project to your IDE:
 `git clone https://github.com/marta-liushniak/online-perfume-store-project`.
 
-Create a schema and required tables in MySQL (feel free to use SQL script: **init_db.sql** file in resources folder) and set up a connection to your DB in ConnectionUtil class.
+Create a schema and required tables in MySQL (feel free to use SQL script: **init_db.sql** file in resources folder) and set up a connection to your DB in **ConnectionUtil** class.
 
 IMPORTANT: while configuring Tomcat, please, go to the Deployment tab, select **war exploded artifact** and change the application context to */*.
